@@ -1,0 +1,162 @@
+body {
+    background: #FFFFFF;
+}
+
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.cabecalho {
+    display: block;
+    margin-top: 1.25rem ;
+    padding-bottom: 2rem;
+}
+
+.cabecalho__titulo {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#333333;
+}
+
+.principal{
+    padding-bottom: 3rem;
+}
+
+.chamada {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem {
+    width: 286px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.chamada__titulo {
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 1.8;
+    color: #333333;
+    margin-bottom: 1.675rem;
+}
+
+.chamada__texto{
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.botao {
+    background-color:#333333 ;
+    text-align: center;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-size: .87rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+   
+    width: 225px;
+    height: 66px;
+    padding: 1.5rem 1.6rem;
+    
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    box-sizing: border-box;
+    border: none;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rodape__texto {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: .875rem;
+    text-align: center;
+    color:#BDBDBD ;
+}
+
+.rodape__destaque {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color:#BDBDBD ;
+}
+
+
+/* media queries */
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .cabecalho {
+        display: block;
+        margin-top: 2.5rem ;
+        margin-left: .8rem;
+        padding-bottom: 2rem;
+    }
+
+    .imagem {
+        width: 400px;
+        padding-right: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-right: 3rem;
+    }
+
+    .principal {
+        display: flex;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .chamada {
+        margin-left: 5rem;
+    }
+
+    .chamada__texto {
+        width: 80%;
+    }
+
+    .botao {
+        margin-top: 3rem;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .imagem{
+        width: 530px;
+    }
+
+    .chamada {
+        margin-left: 5rem;
+        padding-left: 4rem;
+    }
+
+    .chamada__texto {
+        width: 50%;
+    }
+   
+}
